@@ -1,0 +1,340 @@
+{
+  "products": [
+    {
+      "id": 205082351,
+      "name": "Mystic Cat Sterilised Low Grain Salmon 15 kg",
+      "description": "Повноцінний низькозерновий сухий корм із лососем для стерилізованих і кастрованих котів. Поживний та водночас смачний раціон для підтримання здоров'я вихованця.",
+      "isInStock": true,
+      "pet": "Кіт",
+      "category": "Корм",
+      "availableSizes": [
+        "1,5 кг"
+      ],
+      "rating": 5,
+      "reviews": [
+        {
+          "username": "Віталій Синиця",
+          "userImage": "/src/assets/user profile photo 2.jpg",
+          "location": "Черкаси",
+          "rating": 5,
+          "date": "Березень 21, 2024",
+          "reviewTitle": "Чудовий корм",
+          "reviewText": "Дуже сподобалось нашому котику, їсть з задоволенням"
+        },
+        {
+          "username": "Олена Головач",
+          "userImage": "/src/assets/user profile photo 4 f.jpg",
+          "location": "Конотоп",
+          "rating": 4,
+          "date": "Квітень 18, 2023",
+          "reviewTitle": "Котику сподобалося",
+          "reviewText": "Порадив ветеринар, довго вагалася, потім таки вирішила купити, окупився на 100%. Тепер беремо тільки його."
+        }
+      ],
+      "totalReviewCount": 2,
+      "productionDate": "2022-10-31",
+      "price": {
+        "current": {
+          "value": 4829,
+          "text": "4829 грн."
+        }
+      },
+      "brandName": "Mystic",
+      "productCode": 3859854598745,
+      "imageUrl": "i.postimg.cc/SQCtML7k/Mystic-Adult-Cat-Food-Sterilised-Salmon-15-Kg.png",
+      "additionalImageUrls": [
+        "i.postimg.cc/SQCtML7k/Mystic-Adult-Cat-Food-Sterilised-Salmon-15-Kg.png",
+        "i.postimg.cc/sgNFRXcX/11.png"
+      ]
+    },
+    {
+      "id": 205082352,
+      "name": "Mystic Cat Kitten Low Grain Chicken 1,5 kg",
+      "description": "Повноцінний низькозерновий сухий корм із куркою для кошунят та годуючих кішок. Поживний та водночас смачний раціон для підтримання здоров'я вихованця.",
+      "isInStock": true,
+      "pet": "Кіт",
+      "category": "Корм",
+      "availableSizes": [
+        "1,5 кг"
+      ],
+      "rating": 5,
+      "reviews": [
+        {
+          "username": "Микита Стасюк",
+          "userImage": "/src/assets/user profile photo 3.jpg",
+          "location": "Житомир",
+          "rating": 3,
+          "date": "Березень 21, 2024",
+          "reviewTitle": "Непогано",
+          "reviewText": "Хороший корм, поставив 3 через ціну."
+        },
+        {
+          "username": "Михайло",
+          "userImage": "/src/assets/user profile photo 4.jpg",
+          "location": "Київ",
+          "rating": 5,
+          "date": "Грудень, 2023",
+          "reviewTitle": "Неймовірна знахідка",
+          "reviewText": "У нас дуже вибагливий кіт і було важко підібрати йому хороше харчування, але Mystic став для нас знахідкою – смакує з задоволенням!"
+        }
+      ],
+      "totalReviewCount": 2,
+      "productionDate": "2022-10-31",
+      "price": {
+        "current": {
+          "value": 529,
+          "text": "529 грн."
+        }
+      },
+      "brandName": "Mystic",
+      "productCode": 3859854598899,
+      "imageUrl": "i.postimg.cc/kMpFG08Z/Mystic-Kitten-Food-Chicken-1-5-KG.png",
+      "additionalImageUrls": [
+        "i.postimg.cc/kMpFG08Z/Mystic-Kitten-Food-Chicken-1-5-KG.png",
+        "i.postimg.cc/nhz857qg/22.png"
+      ]
+    },
+    {
+      "id": 205082353,
+      "name": "AEQUILIBRIAVET Консерва для собак мус ягня 100 г",
+      "description": "Склад: м’ясо та продукти тваринного походження (ягнятина 100%), олії та жири (соняшникова олія), мінеральні речовини, продукти рослинного походження.",
+      "isInStock": true,
+      "pet": "Собака",
+      "category": "Корм",
+      "availableSizes": [
+        "100 г"
+      ],
+      "rating": 4,
+      "reviews": [],
+      "totalReviewCount": 0,
+      "productionDate": "2023-11-31",
+      "price": {
+        "current": {
+          "value": 83,
+          "text": "83 грн."
+        }
+      },
+      "brandName": "Marpet",
+      "productCode": 38597852369874,
+      "imageUrl": "i.postimg.cc/Bb41v8t2/1-5.png",
+      "additionalImageUrls": [
+        "i.postimg.cc/Bb41v8t2/1-5.png"
+      ]
+    },
+    {
+      "id": 205082354,
+      "name": "Marpet (Марпет) Chef Chicken & Pineapple 85 г",
+      "description": "Консервований беззерновий корм Chef Chicken & Pineapple може стати як і чудовим доповненням до щоденного раціону улюбленця, так і апетитною винагородою за старання чи хорошу поведінку.      Вживання вологого корму є профілактикою сечокам'яної хвороби, а також додаткова волога дозволяє підтримувати правильний водний баланс організму, від якого напряму залежить еластичність шкіри кота.",
+      "isInStock": true,
+      "pet": "Кіт",
+      "category": "Корм",
+      "availableSizes": [
+        "85 г"
+      ],
+      "rating": 4,
+      "reviews": [],
+      "totalReviewCount": 0,
+      "productionDate": "2023-11-31",
+      "price": {
+        "current": {
+          "value": 56,
+          "text": "56 грн."
+        }
+      },
+      "brandName": "Marpet",
+      "productCode": 38597852323651,
+      "imageUrl": "i.postimg.cc/gJvZdycY/2-5.png",
+      "additionalImageUrls": [
+        "i.postimg.cc/gJvZdycY/2-5.png"
+      ]
+    },
+    {
+      "id": 205082355,
+      "name": "Нашийник протипаразитарний Defender для собак, 35 см",
+      "description": "Нашийник для профілактики та лікування собак при захворюваннях, спричинених ектопаразитами: блохами  (Ctenocephalides spp., Pulex irritans), волосоїдами (Trichodectes canis, Felicola subrostratus), вошами (Linognathus setosus), паразитиформними кліщами (Ixodes spp., Dermacentor spp., Rhipicephalus spp.) на імагінальній, німфальній та личинковій стадіях розвитку.",
+      "isInStock": true,
+      "pet": "Собака",
+      "category": "Ветеринарні препарати",
+      "availableSizes": [
+        "35 см"
+      ],
+      "rating": 4,
+      "reviews": [
+        {
+          "username": "Аня Ісько",
+          "userImage": "/src/assets/user profile photo 11 f.jpg",
+          "location": "Хмельницький",
+          "rating": 2,
+          "date": "3 липня, 2023",
+          "reviewTitle": "Задорого",
+          "reviewText": "Поки що результату не побачили."
+        }
+      ],
+      "totalReviewCount": 1,
+      "productionDate": "2023-11-31",
+      "price": {
+        "current": {
+          "value": 55,
+          "text": "5556 грн."
+        }
+      },
+      "brandName": "Healthy Pet",
+      "productCode": 38597855623687,
+      "imageUrl": "i.postimg.cc/YCsgxqyw/3-6.png",
+      "additionalImageUrls": [
+        "i.postimg.cc/YCsgxqyw/3-6.png"
+      ]
+    },
+    {
+      "id": 205082356,
+      "name": "Вітаміни для котів (Зміцнення зубів та кісток з біотином та таурином)",
+      "description": "Здоров'я зубів та кісток у котів напряму пов'язане з підтриманням балансу вітамінів та мінералів в організмі тварини. Їх крихкість завжди пов'язана з відсутністю необхідного співвідношення таких речовин, як кальцій, фосфор та магній.",
+      "isInStock": true,
+      "pet": "Кіт",
+      "category": "Ветеринарні препарати",
+      "availableSizes": [
+        "100 табл."
+      ],
+      "rating": 5,
+      "reviews": [
+        {
+          "username": "Олеся Розецька",
+          "userImage": "/src/assets/user profile photo 10 f.jpg",
+          "location": "Львів",
+          "rating": 4,
+          "date": " 11 Березня, 2024",
+          "reviewTitle": "Відгук на вітаміни",
+          "reviewText": "Ветеринар порадив нам пропити вітаміни додатково, бо собака має ламкі кістки, потребує більше кальцію. Є покращення по аналізам. Дякую"
+        },
+        {
+          "username": "Роман Павлович",
+          "userImage": "/src/assets/user profile photo 10.jpg",
+          "location": "Рівне",
+          "rating": 2,
+          "date": "Липень 26, 2023",
+          "reviewTitle": "Не підійшло",
+          "reviewText": "Вітаміни викликали алергію. Перед купівлею препаратів, звертайтеся до ветеринара, щоб не було таких проблем, як у нас."
+        }
+      ],
+      "totalReviewCount": 2,
+      "productionDate": "2023-12-26",
+      "price": {
+        "current": {
+          "value": 85,
+          "text": "85 грн."
+        }
+      },
+      "brandName": "Healthy Pet",
+      "productCode": 38597855623888,
+      "imageUrl": "i.postimg.cc/KvQtR5Pj/4-4.png",
+      "additionalImageUrls": [
+        "i.postimg.cc/KvQtR5Pj/4-4.png"
+      ]
+    },
+    {
+      "id": 205082357,
+      "name": "Сухий корм для морських свинок в гранулах Zoo-Box Megan 550 г",
+      "description": "Інгредієнти: гранули, ячмінь, ріжкове дерево, кукурудза, пшениця, родзинки, соняшник, петрушка, морква, картопля, сіно, банан, екструдовані чіпси, цибуля-порей, рис.",
+      "isInStock": true,
+      "pet": "Гризуни",
+      "category": "Корм",
+      "availableSizes": [
+        "550 г"
+      ],
+      "rating": 5,
+      "reviews": [
+        {
+          "username": "Марина",
+          "userImage": "/src/assets/user profile photo 6 f.jpg",
+          "location": "Вишгород, Київська область",
+          "rating": 5,
+          "date": "Лютий 4, 2024",
+          "reviewTitle": "Дуже сподобалося",
+          "reviewText": "Джоні постійно просить ще. Йому дуже сподобалося. Гризун став більш активним та життєрадісним. Дякую"
+        }
+      ],
+      "totalReviewCount": 1,
+      "productionDate": "2024-02-13",
+      "price": {
+        "current": {
+          "value": 185,
+          "text": "185 грн."
+        }
+      },
+      "brandName": "Zoo-Box",
+      "productCode": 38597965874125,
+      "imageUrl": "i.postimg.cc/66Hz2wLC/Mystic-Adult-Cat-Food-Sterilised-Salmon-15-Kg-2.png",
+      "additionalImageUrls": [
+        "i.postimg.cc/66Hz2wLC/Mystic-Adult-Cat-Food-Sterilised-Salmon-15-Kg-2.png"
+      ]
+    },
+    {
+      "id": 205082358,
+      "name": "Корм Megan ZOO-BOX Premium Line для хвилястих папуг, 750 г коробка",
+      "description": "нгредієнти: пшеничне борошно, пшоно, пшениця, льон, штучний мед, сухофрукти, кукурудзяний екструдер.",
+      "isInStock": true,
+      "pet": "Птахи",
+      "category": "Корм",
+      "availableSizes": [
+        "750 г"
+      ],
+      "rating": 3,
+      "reviews": [{
+        "username": "Віка Пилипенко",
+        "userImage": "/src/assets/user profile photo 3 f.jpg",
+        "location": "Київ",
+        "rating": 5,
+        "date": "Жовтень 2, 2023",
+        "reviewTitle": "Задоволена покупкою",
+        "reviewText": "Брала для своїх пернатих, задоволена сервісом та товаром. БУдемо замовляти у вас ще."
+      }],
+      "totalReviewCount": 1,
+      "productionDate": "2024-03-01",
+      "price": {
+        "current": {
+          "value": 247,
+          "text": "247 грн."
+        }
+      },
+      "brandName": "Zoo-Box",
+      "productCode": 38597965874199,
+      "imageUrl": "i.postimg.cc/bvSnVcKS/6-2.png",
+      "additionalImageUrls": [
+        "i.postimg.cc/bvSnVcKS/6-2.png"
+      ]
+    }
+  ],
+  "user": [
+    {
+      "id": "H3KCwjqFk1D3MdoNhNeIC",
+      "name": "Олександр",
+      "lastname": "Жилка",
+      "email": "sashazhilka228@gmail.com",
+      "phone": "096238850",
+      "adress": "asdasd",
+      "password": "123321",
+      "userWishlist": []
+    }
+  ],
+  "orders": [
+    {
+      "userId": "H3KCwjqFk1D3MdoNhNeIC",
+      "orderStatus": "in progress",
+      "subtotal": 529,
+      "cartItems": [
+        {
+          "id": 205082352,
+          "title": "Mystic Cat Sterilised Low Grain Salmon 1,5 kg",
+          "image": "i.postimg.cc/63HVdSP8/Mystic-Adult-Cat-Food-Sterilised-Salmon-1-5-Kg.png",
+          "rating": 5,
+          "price": 529,
+          "brandName": "Mystic",
+          "amount": 1,
+          "selectedSize": "1,5 кг",
+          "isInWishList": false
+        }
+      ],
+      "id": 1
+    }
+  ]
+}
