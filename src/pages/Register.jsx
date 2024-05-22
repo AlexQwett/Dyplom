@@ -12,6 +12,7 @@ const Register = () => {
   const [confirmPassword, setConfirmPassword] = useState("");
   const [phone, setPhone] = useState("");
   const [adress, setAdress] = useState("");
+  const [saleValue, setValue] = useState("");
 
   const navigate = useNavigate();
 
@@ -64,6 +65,7 @@ const Register = () => {
       adress,
       password,
       userWishlist: [],
+      saleValue: 1.3
     };
 
     if (isValidate()) {

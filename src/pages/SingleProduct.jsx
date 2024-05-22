@@ -1,5 +1,5 @@
 import axios from "axios";
-import React, { useState } from "react";
+import React, { useState, useEffect } from 'react';
 import {
   QuantityInput,
   SectionTitle,
@@ -20,6 +20,38 @@ import {
 } from "../features/wishlist/wishlistSlice";
 import { toast } from "react-toastify";
 import { store } from "../store";
+
+
+const getSaleValue = async () => {
+  const id = localStorage.getItem("id");
+  if (!id) {
+    return 0;
+  }
+
+  try {
+    const response = await axios.get(`http://localhost:8080/user/${id}`);
+    console.log(response.data.saleValue);
+    return response.data.saleValue;
+  } catch (error) {
+    console.error('Error fetching sale value:', error);
+    return null;
+  }
+};
+
+const SaleValue = () => {
+  const [saleValue, setSaleValue] = useState(null);
+
+  useEffect(() => {
+    const fetchSaleValue = async () => {
+      const value = await getSaleValue();
+      setSaleValue(value);
+    };
+
+    fetchSaleValue();
+  }, []); // Порожній масив залежностей, щоб викликати один раз
+
+  return saleValue;
+};
 
 export const singleProductLoader = async ({ params }) => {
   const { id } = params;
@@ -47,7 +79,7 @@ const SingleProduct = () => {
 
   const { productData } = useLoaderData();
 
-  const product = {
+  let product = {
     id: productData?.id + size,
     title: productData?.name,
     image: productData?.imageUrl,
@@ -114,6 +146,8 @@ const SingleProduct = () => {
     toast.success("Product removed from the wishlist!");
   };
 
+  const sale = SaleValue();
+
   return (
     <>
       <div className="grid grid-cols-2 max-w-7xl mx-auto mt-5 max-lg:grid-cols-1 max-lg:mx-5">
@@ -141,7 +175,8 @@ const SingleProduct = () => {
           </h2>
           <SingleProductRating rating={rating} productData={productData} />
           <p className="text-3xl text-error">
-            {productData?.price?.current?.value} грн.
+            {productData?.price?.current?.value} грн. - ціна реалізації<br/>
+            {sale !== 0 ? Math.round(productData?.price?.current?.value / sale) : 'Авторизуйтесь, щоб побачити оптові ціни'} грн. - оптова ціна
           </p>
           <div className="text-xl max-sm:text-lg text-accent-content">
             {parse(productData?.description)}
@@ -161,6 +196,9 @@ const SingleProduct = () => {
               className="btn bg-blue-600 hover:bg-blue-500 text-white"
               onClick={() => {
                 if (loginState) {
+                  product.price = Math.round(productData?.price?.current?.value / sale);
+
+                  console.log(product);
                   dispatch(addToCart(product));
                 } else {
                   toast.error(
